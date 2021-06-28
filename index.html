@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="jumbotron">
+
+    
+    <div class="container">
+        <form class="form-horizontal" method="post" action="/submit">
+         
+         <fieldset>
+             <legend></legend>
+             <div class="form-group">
+                <label class="col-md-4" for="name">
+                 Candidate Name
+                </label>
+               <div class="col-md-4">
+                   <input id="name" name="name" type="text" 
+                   placeholder="enter candidate name" class="form-control input-md">
+               </div>
+               <div class="form-group">
+                   <label class="col-md-4" for="submit">
+                       
+                   </label>
+                   
+           
+             <div class="form-group">
+                 <label class="col-md-4" for="email">
+                     Email
+                 </label>
+                <div class="col-md-4">
+                    <input id="email" name="email" type="text" 
+                    placeholder="enter email" class="form-control input-md">
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4" for="submit">
+                        
+                    </label>
+                   <div class="col-md-4">
+                       <button id="submit" name="button"
+                        class="btn btn-primary">
+                        save
+                        </button>
+                   </div>
+             </div>
+         </fieldset>
+        </form>
+        <div>
+            <a href="/finalscore">show highest score</a>
+        </div>
+        <div>   
+            <a href="/averagescore">show average score</a>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
